@@ -1,0 +1,121 @@
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+        body {
+            margin: 0;
+            font-family: 'Pretendard', sans-serif;
+            background-color: #000;
+            color: #CDCDCD;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0;
+            padding-bottom: 7.5px;
+        }
+        p {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0;
+        }
+        footer {
+            padding-top: 550px;
+            padding-left: 30px;
+            font-family: 'Pretendard', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 0;
+        }
+        .bordered {
+            border-bottom: 1px solid #CDCDCD;
+            padding: 7.5px 0px;
+        }
+        .pborder {
+            padding: 7.5px 0px;
+        }
+        .contentborder {
+            padding-top: 50px;
+        }
+         .contentborder2 {
+            padding-bottom: 50px;
+        }
+        .padded{
+            padding: 50px 0px;
+        }
+        .comment{
+            font-size: 12px;
+        }
+        .container {
+            width: 1920px;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+        }
+        .left-scroll-section {
+            width: 410px;
+            height: 100vh;
+            position: fixed;
+            top: 15px;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+        }
+        .left-scroll-section .text-box {
+            width: 222px;
+            padding: 10px;
+        }
+        .main-content {
+            margin-left: 430px; 
+            width: 1000px;
+            padding: 0px 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .right-scroll-sections {
+            margin-left: 20px;
+            width: 410px;
+        }
+        .sticky-section {
+            padding: 20px;
+            margin-bottom: 20px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+        .sticky-section .text-box {
+            width: 330px;
+            padding: 10px;
+        }
+        .sticky-section img {
+            max-width: 100%;
+            height: auto;
+            padding-bottom: 7.5px;
+        }
+
+        .background-gray {
+            background-color: #EB1C1C;
+        }
+
+        .background-outro{
+            background-color: #000000;
+        }
+        .hover-text {
+            font-family: 'Pretendard', sans-serif;
+            font-weight: 600;
+            color: #cdcdcd;
+            transition: color 0.1s ease; 
+        }
+        .hover-text:hover {
+            color: #EB1C1C;
+        }
+        .textcolor {
+            font-family: 'Pretendard', sans-serif;
+            font-weight: 600;
+            margin: 0;
+            color: #CDCDCD;
+            text-decoration: none;
+        }
